@@ -1,2 +1,2 @@
 # linkedListExample
-An example implemnation of a linked list in C.
+An example implementation of a linked list in C.
