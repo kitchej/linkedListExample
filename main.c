@@ -8,6 +8,7 @@ int main(int argc, char **argv){
         printf("List could not be created\n");
         return -1;
     }
+    
     int result;
     printf("Appending 25, 26, 27, 28, 29, 30, 31, 32, 33, and 34 to the list\n");
     appendData(myList, 25);
