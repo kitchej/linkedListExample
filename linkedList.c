@@ -98,10 +98,6 @@ int insertData(struct LinkedList *list, int data, int index){
         list->count++;
         return 0;
     }
-    else if(index == (list->count - 1)){
-        int result = appendData(list, data);
-        return result;
-    }
     else{
         struct Node *curr = list->head;
         for (int i=0; i != (index - 1); i++){
