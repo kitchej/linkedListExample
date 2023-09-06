@@ -1,2 +1,2 @@
-linkedList.o: main.c linkedList.c
-	gcc -o linkedList.o main.c linkedList.c
+linkedList.o: main.c
+	gcc -o linkedList.o main.c

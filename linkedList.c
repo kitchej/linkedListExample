@@ -1,3 +1,8 @@
+/*
+Linked List in C
+Written by Joshua Kitchen
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "linkedList.h"
@@ -158,4 +163,3 @@ void clearList(struct LinkedList *list){
         free(toDelete);
     }
 }
-
